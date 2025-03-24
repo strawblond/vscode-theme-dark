@@ -1,0 +1,33 @@
+{
+  "name": "strawblond-dark",
+  "displayName": "StrawBlond Dark",
+  "description": "StrawBlond Dark Theme for Visual Studio Code",
+  "version": "0.0.1",
+  "publisher": "Racerfish",
+	"icon": "images/logo.png",
+  "galleryBanner": {
+		"color": "#0f1014",
+		"theme": "dark"
+	},
+  "pricing": "Free",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strawblond/vscode-theme-dark.git"
+  },
+  "homepage": "https://developers.strawblond.com",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "StrawBlond Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/StrawBlond Dark-color-theme.json"
+      }
+    ]
+  }
+}
